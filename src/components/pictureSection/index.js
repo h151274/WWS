@@ -1,28 +1,24 @@
 import React from 'react';
-import sectionImage from '../../images/gdansk.jpg'
 import {
     InfoContainer,
-    InfoWrapper,
-    InfoRow,
-    PictureBg,
     TextContent,
     SectionImage,
-    TextWrapper,
     SectionH1,
     SectionP,
-} from './pictureSection'
+    InfoBg,
+} from './PictureSection';
 
-const PictureSection = () => {
+const PictureSection = ({id, headline, description,img, alt }) => {
     return (
         <>
-            <InfoContainer>
-                <InfoWrapper >
-                    <SectionImage src={sectionImage} alt="sectionImage" />
-                    <TextContent>
-                        <SectionH1> Bonn & Eivin  </SectionH1>
-                        <SectionP>July 4-6, 2024 · Koh Samui, Thailand </SectionP>
-                    </TextContent>
-                </InfoWrapper>
+            <InfoContainer id ={id}>
+                <InfoBg>
+                    <SectionImage src={img} alt={alt} />
+                </InfoBg>
+                <TextContent>
+                    <SectionH1> {headline} </SectionH1>
+                    <SectionP>{description}</SectionP>
+                </TextContent>
             </InfoContainer>
         </>
     )

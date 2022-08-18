@@ -18,9 +18,9 @@ const Sidebar = ({isOpen, toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenue>
-                    <SidebarLink to='ourstory' onClick={toggle}>Our Story</SidebarLink>
-                    <SidebarLink to='details' onClick={toggle}>Details </SidebarLink>
-                    <SidebarLink to='registry' onClick={toggle}>Registry</SidebarLink>
+                    <SidebarLink to='Wedding' onClick={toggle}>Wedding Details</SidebarLink>
+                    <SidebarLink to='Travel' onClick={toggle}>Travel & Stay</SidebarLink>
+                    <SidebarLink to='ToDo' onClick={toggle}>What to do</SidebarLink>
                 </SidebarMenue>
                 <SidebarBtnWrap>
                     <SidebarRoute to='/rsvp'>RSVP</SidebarRoute>

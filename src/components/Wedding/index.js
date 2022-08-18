@@ -1,7 +1,8 @@
 import React from 'react'
-import bilde1 from '../../images/beach.jpg'
-import bilde2 from '../../images/beSamui.jpg'
-import bilde3 from '../../images/beach.jpg'
+import bilde1 from '../../images/umberella.jpg'
+import bilde2 from '../../images/sign.jpg'
+import bilde3 from '../../images/sand.jpg'
+import { TopLine } from '../InfoSection/InfoElements'
 
 import {
     WeddingContainer,
@@ -17,8 +18,9 @@ import {
 export const WeddingInfo = () => {
     return (
 
-        <WeddingContainer>
+        <WeddingContainer id="Wedding">
             <WeddingH1>Please join us from March 29–30, 2024 as we celebrate our wedding in Koh Samui, Thailand.</WeddingH1>
+                <TopLine>Tropical Casual</TopLine>
                 <WeddingWrapper>
                     <WeddingCard>
                         <WeddingPicture src={bilde1} />

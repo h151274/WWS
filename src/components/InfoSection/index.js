@@ -10,7 +10,8 @@ import {
     Heading,
     Subtitle,
     ImgWrap,
-    Img
+    Img,
+    BtnWrap,
 } from './InfoElements'
 
 const InfoSection = ({ id, topLine, headline, description, imgStart, img, alt }) => {

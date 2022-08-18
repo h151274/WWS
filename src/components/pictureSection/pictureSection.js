@@ -1,22 +1,25 @@
 import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
-color: #fff;
-
-@media screen and (max-width: 768px){
-    padding: 100px 0;    
-}
-`;
-export const InfoWrapper = styled.div`
-display: grid;
-z-index: 1;
-height: 760px;
-width: 100%;
-max-width: 1100px;
-margin-right: auto;
-margin-left: auto;
-padding: 0 24px;
+background: lightgrey;
+display: flex;
 justify-content: center;
+align-items: center;
+height: 500px;
+position: relative;
+z-index: 1;
+
+`;
+
+export const InfoBg = styled.div`
+//position: absolute;
+top: 0;
+right:0;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+overflow: hidden;
 `;
 
 export const SectionImage = styled.img`
@@ -24,10 +27,8 @@ width: 100%;
 height: 100%;
 -o-object-fit: cover;
 object-fit: cover;
-//margin: 0 0 10px 0;
-@media screen and (max-width: 768px){
-    padding: 100px 0;    
-}
+margin: 0 0 10px 0;
+
 `
 export const TextContent = styled.div`
 z-index: 3;
@@ -41,14 +42,13 @@ align-items: center;
 `;
 
 export const SectionH1 = styled.h1`
-color: #000;
+color: #fff;
 font-size: 80px;
 text-align: center;
 
 
 @media screen and (max-width: 768px){
     font-size: 50px;
-    
 }
 
 @media screen and (max-width: 480px){
@@ -58,7 +58,7 @@ text-align: center;
 
 export const SectionP = styled.p`
 margin-top: 24px;
-color: #000;
+color: #fff;
 font-size: 24px;
 text-align: center;
 max-width: 600px;

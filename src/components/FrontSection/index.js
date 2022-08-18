@@ -7,7 +7,7 @@ import {
     FrontContent,
     HeaderImage
 } from './FrontElements';
-import headerImage from '../../images/rome.jpg'
+import headerImage from '../../images/sand.jpg'
 
 const FrontSection = () => {
     return (

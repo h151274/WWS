@@ -3,8 +3,8 @@ export const homeObjOne = { 
     topLine: '4:00PM / 16.00',
     headline: 'Ceremony',
     description: 'Sun deck at Hotel Silavadee Pool Spa Resport. 208/66 Ko Samui District, Surat Thani 84310, Thailand  ',
-    img: require('../../images/beSamui.jpg'),
-    alt: 'baSamui',
+    img: require('../../images/umberella.jpg'),
+    alt: 'baach',
     imgStart: true
 }
 
@@ -13,7 +13,7 @@ export const homeObjTwo = { 
     topLine: '4:00PM / 16.00',
     headline: 'Reception',
     description: 'Sun deck at Hotel Silavadee Pool Spa Resport. 208/66 Ko Samui District, Surat Thani 84310, Thailand  ',
-    img: require('../../images/beach.jpg'),
+    img: require('../../images/sand.jpg'),
     alt: 'beach',
     imgStart: false
 
