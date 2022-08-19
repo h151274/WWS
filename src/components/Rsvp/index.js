@@ -1,11 +1,11 @@
 import React from 'react'
 import { BackgroundContainer, BackgroundImage, Container, ContentBox, FormButton, FormInput, FormInputMessage, FormLabel, Form, RsvpH1, RsvpH2, FormWrap, FormContent } from './RsvpElements'
-import headerImage from '../../images/sand.jpg'
+import bgImage from '../../images/beach.jpg'
 
 export const Rsvp = () => {
     return (
         <BackgroundContainer>
-            <BackgroundImage src={headerImage} alt="headerImage" />
+            <BackgroundImage src={bgImage} alt="headerImage" />
             <Container>
                 <FormWrap>
                     <FormContent>                     
