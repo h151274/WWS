@@ -8,8 +8,7 @@ align-items: center;
 height: 500px;
 position: relative;
 z-index: 1;
-
-`;
+`
 
 export const InfoBg = styled.div`
 //position: absolute;
@@ -49,7 +48,7 @@ text-align: center;
 
 @media screen and (max-width: 768px){
     font-size: 50px;
-}
+};
 
 @media screen and (max-width: 480px){
     font-size: 42px;

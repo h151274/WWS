@@ -19,7 +19,7 @@ top: ${({isOpen}) => (isOpen ? '0' : '-100%')};
 `
 
 export const CloseIcon = styled(FaTimes)`
-color: #fff
+color: #fff;
 `
 
 export const Icon = styled.div`
@@ -45,6 +45,7 @@ text-align: center;
     grid-template-rows: repeat(4,60px);
 }
 `
+
 export const SidebarLink = styled(LinkScroll)`
 display: flex;
 align-items: center;
@@ -59,9 +60,9 @@ cursor: pointer;
 
 &:hover {
     transition: 0.2s ease-in-out;
-    color: orchid;
+    color: wheat;
 }
-`
+`;
 
 export const SidebarBtnWrap = styled.div`
 display: flex;

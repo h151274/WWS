@@ -19,26 +19,26 @@ export const WeddingInfo = () => {
     return (
 
         <WeddingContainer id="Wedding">
-            <WeddingH1>Please join us from March 29–30, 2024 as we celebrate our wedding in Koh Samui, Thailand.</WeddingH1>
+            <WeddingH1>Please join us on Month 00, 2024 as we celebrate our wedding in Koh Samui, Thailand.</WeddingH1>
                 <TopLine>Tropical Casual</TopLine>
                 <WeddingWrapper>
                     <WeddingCard>
                         <WeddingPicture src={bilde1} />
                         <WeddingH2>Thai morning Ceremony</WeddingH2>
-                        <WeddingTopLine>4:00PM / 16.00</WeddingTopLine>
-                        <WeddingP>Sun deck at Hotel Silavadee Pool Spa Resport. 208/66 Ko Samui District, Surat Thani 84310, Thailand  </WeddingP>
+                        <WeddingTopLine>00:00PM / 00.00</WeddingTopLine>
+                        <WeddingP>Name of Hotel or Venue. District, The rest of the Adress, Thailand  </WeddingP>
                     </WeddingCard>
                     <WeddingCard>
                         <WeddingPicture src={bilde2} />
                         <WeddingH2>Ceremony</WeddingH2>
-                        <WeddingTopLine>4:00PM / 16.00</WeddingTopLine>
-                        <WeddingP>Sun deck at Hotel Silavadee Pool Spa Resport. 208/66 Ko Samui District, Surat Thani 84310, Thailand  </WeddingP>
+                        <WeddingTopLine>00:00PM / 00.00</WeddingTopLine>
+                        <WeddingP>Name of Hotel or Venue. District, The rest of the Adress, Thailand   </WeddingP>
                     </WeddingCard>
                     <WeddingCard>
                         <WeddingPicture src={bilde3} />
                         <WeddingH2>Reception</WeddingH2>
-                        <WeddingTopLine>4:00PM / 16.00</WeddingTopLine>
-                        <WeddingP>Sun deck at Hotel Silavadee Pool Spa Resport. 208/66 Ko Samui District, Surat Thani 84310, Thailand  </WeddingP>
+                        <WeddingTopLine>00:00PM / 00.00</WeddingTopLine>
+                        <WeddingP>Name of Hotel or Venue. District, The rest of the Adress, Thailand  </WeddingP>
                     </WeddingCard>
                 </WeddingWrapper>           
         </WeddingContainer>

@@ -1,31 +1,24 @@
 export const homeObjOne = { 
     id: 'Ceremony',
-    topLine: '4:00PM / 16.00',
-    headline: 'Ceremony',
-    description: 'Sun deck at Hotel Silavadee Pool Spa Resport. 208/66 Ko Samui District, Surat Thani 84310, Thailand  ',
+    topLine: 'Name of location',
+    headline: 'Activity',
+    description: 'Information about the activities. To be decided. Design is not decided eighter. more info more info more info ',
     img: require('../../images/umberella.jpg'),
     alt: 'baach',
     imgStart: true
 }
-
+/*
 export const homeObjTwo = { 
     id: 'Reception',
-    topLine: '4:00PM / 16.00',
-    headline: 'Reception',
-    description: 'Sun deck at Hotel Silavadee Pool Spa Resport. 208/66 Ko Samui District, Surat Thani 84310, Thailand  ',
+    topLine: 'Tour names',
+    headline: 'Boat Trip',
+    description: 'Info about the trip. This is to be decided. ',
     img: require('../../images/sand.jpg'),
     alt: 'beach',
-    imgStart: false
+    imgStart: false,
+    primary: false,
 
 }
-export const homeObjThree = { 
-    id: 'Reception',
-    topLine: '4:00PM / 16.00',
-    headline: 'Reception',
-    description: 'Sun deck at Hotel Silavadee Pool Spa Resport. 208/66 Ko Samui District, Surat Thani 84310, Thailand  ',
-    //img: require('../../images/beach.jpg'),
-    alt: 'beach',
-    imgStart: false
+*/
 
-}
 

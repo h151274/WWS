@@ -1,10 +1,10 @@
 export const textObjOne= {
     id: 'Stay',
-    topLine: 'We have rooms blocked off for wedding guests at a hotel and a guesthouse in the Yvoire-Excenevex area. Mention the Pillai–Chopra wedding when you book to get the group discount.',
+    topLine: 'Information about the venue. If it is possible to stay there. If hotel - write short about the rooms available. If Villa - how many rooms are available to book',
     headline1: 'Hotel',
-    description1: 'Sun deck at Hotel Silavadee Pool Spa Resport. 208/66 Ko Samui District, Surat Thani 84310, Thailand. ewiqjeiwqjkfds fd sfd sfd sf ds d sfgdsfew re w rewreewe r ewrew ',
+    description1: 'Name of the hotel. District, More Adress, Thailand. More useful info about the hotel or rooms ',
     headline2: 'Other Recommendations',
-    description2: 'Sun deck at Hotel Silavadee Pool Spa Resport. 208/66 Ko Samui District, Surat Thani 84310, Thailand  ',
+    description2: 'Hotels close by or villa next to the venue. Other information will be filled in here',
 }
 
 

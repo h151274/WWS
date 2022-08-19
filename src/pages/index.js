@@ -29,7 +29,6 @@ const Home = () => {
     <TextSection {...textObjOne}/>
     <PictureSection {...infoSectionObjTwo}/>    
     <InfoSection {...homeObjOne}/>
-    <InfoSection {...homeObjTwo}/>
     <Footer/>
     
     </>
