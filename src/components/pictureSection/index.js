@@ -6,7 +6,7 @@ import {
     SectionH1,
     SectionP,
     InfoBg,
-} from './PictureSection';
+} from './PictureSectionElements';
 
 const PictureSection = ({id, headline, description,img, alt }) => {
     return (
