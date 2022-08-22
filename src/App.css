@@ -5,3 +5,9 @@
   text-align: center;
   font-family: 'EB Garamond', serif;
 }
+
+html,body
+{
+  
+    overflow-x: hidden; 
+}

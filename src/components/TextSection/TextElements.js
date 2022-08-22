@@ -25,7 +25,10 @@ export const InfoRow = styled.div`
   grid-auto-columns: minmax(auto,1fr);
   align-items: center;
   grid-template-areas: "col1 col2";
- 
+
+  @media screen and (max-width: 480px) {
+    grid-template-columns: "col1";
+}
 `;
 
 export const Column1 = styled.div`
@@ -44,7 +47,7 @@ export const TextWrapper = styled.div`
 max-width: 540px;
 padding-top: 0;
 padding-bottom: 60px;
-`;
+`
 
 export const Heading = styled.h1`
 color: #000;
@@ -56,17 +59,22 @@ text-transform: uppercase;
 
 
 @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 14px;
 }
 `;
 
 export const TopLine = styled.p`
 color: #000;
 font-size: 30px;
-//line-height: 16px;
 font-weight: 500;
 margin-top:100px;
 margin-bottom: 100px;
+
+@media screen and (max-width: 480px) {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
 `;
 
 export const Subtitle = styled.p`
@@ -74,6 +82,11 @@ color: #000;
 margin-bottom: 35px;
 font-size: 18px;
 line-height: 24px;
+
+@media screen and (max-width: 480px) {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
 `;
 
 export const BtnWrap = styled.div`

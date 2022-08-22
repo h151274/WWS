@@ -13,6 +13,12 @@ margin-bottom: 40px;
 @media screen and (max-width: 764px){
     height: 3000px;
 }
+@media screen and (max-width: 530px){
+    height: 2700px;
+}
+@media screen and (max-width: 412px){
+    height: 2200px;
+}
 `
 export const WeddingWrapper = styled.div`
 max-width: 1400px;

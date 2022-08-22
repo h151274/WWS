@@ -30,11 +30,15 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 color: aliceblue;
+overflow-x: auto;
+white-space: nowrap;
+
 
 
 @media screen and (max-width: 400px){
     height: 80%;
 }
+
 `;
 
 export const FormContent = styled.div`
@@ -174,7 +178,8 @@ margin-top: 32px;
 text-decoration: none;
 color: white;
 font-weight: 700;
-font-size: 32px;
+font-size: 40px;
+font-family: 'Tangerine', cursive;
 
 @media screen and (max-width: 480px){
     margin-left: 16px;
