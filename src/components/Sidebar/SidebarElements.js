@@ -33,7 +33,7 @@ outline: none;
 `
 
 export const SidebarWrapper = styled.div`
-color: #fff
+color: #fff;
 `
 export const SidebarMenue = styled.ul`
 display: grid;
@@ -62,7 +62,7 @@ cursor: pointer;
     transition: 0.2s ease-in-out;
     color: wheat;
 }
-`;
+`
 
 export const SidebarBtnWrap = styled.div`
 display: flex;

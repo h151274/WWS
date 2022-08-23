@@ -6,8 +6,9 @@
   font-family: 'EB Garamond', serif;
 }
 
-html,body
-{
-  
-    overflow-x: hidden; 
+html, body {
+  scroll-behavior: smooth;
+  scroll-snap-type: y; 
 }
+
+

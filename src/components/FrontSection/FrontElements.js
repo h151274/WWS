@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const FrontContainer = styled.div`
-background: lightgrey;
 display: flex;
 justify-content: center;
 align-items: center;
