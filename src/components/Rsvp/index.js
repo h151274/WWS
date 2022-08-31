@@ -6,10 +6,10 @@ export const Rsvp = () => {
     return (
         <BackgroundContainer>
             <BackgroundImage src={bgImage} alt="headerImage" />
-            <Container>
-                <FormWrap>
-                <Icon to="/">B & E</Icon>
-                    <FormContent>                     
+            <Container className='container'>
+                <FormWrap className='FormWrap'>
+                <Icon to="/" className='Icon'>B & E</Icon>
+                    <FormContent className='FormContent'>                     
                         <Form>
                         <RsvpH1>Will you attend?</RsvpH1>
                         <RsvpH2>R.S.V.P</RsvpH2>

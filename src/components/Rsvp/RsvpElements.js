@@ -14,8 +14,8 @@ height: 100%;
 object-fit: cover;
 `
 export const Container = styled.div`
-min-height: 900px;
-position: fixed;
+min-height: 700px;
+position: absolute;
 bottom: 0;
 left: 0;
 right: 0;
@@ -29,16 +29,12 @@ height: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
-color: aliceblue;
 overflow-x: auto;
 white-space: nowrap;
 
-
-
 @media screen and (max-width: 400px){
-    height: 80%;
+    height:100%;
 }
-
 `;
 
 export const FormContent = styled.div`
@@ -46,6 +42,7 @@ height: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
+overflow: hidden;
 
 @media screen and (max-width: 480px){
     padding: 10px;
@@ -80,8 +77,8 @@ padding: 50px 32px;
 border-radius: 4px;
 
 @media screen and (max-width: 768px){
-    width: 400px;
-    height: 700px;
+    width: 80%;
+    height: 90%;
 }
 `;
 
@@ -95,10 +92,15 @@ text-align: left;
 export const FormInput = styled.input`
 padding: 16px 16px;
 margin-bottom: 24px;
-border-radius: 4px;
 font-size: 16px;
 text-align: left;
 border: 1px solid #000;
+
+@media screen and (max-width: 768px){
+    padding: 10px 10px;
+    margin-bottom: 10px;
+
+}
 
 `;
 
@@ -110,6 +112,12 @@ font-size: 16px;
 text-align: left;
 border: 1px solid #000;
 
+@media screen and (max-width: 768px){
+    padding: 30px 10px;
+    margin-bottom: 10px;
+
+}
+
 `;
 export const FormButton = styled.button`
 background: black;
@@ -120,6 +128,11 @@ color: #fff;
 font-size: 20px;
 max-width: 30%;
 cursor: pointer;
+
+@media screen and (max-width: 768px){
+    padding: 10px 0;
+
+}
 `;
 
 export const text = styled.span`
@@ -170,7 +183,6 @@ margin-bottom: 40px;
     font-size: 30px;
 }
 
-
 `
 export const Icon = styled(Link)`
 margin-left: 32px;
@@ -181,9 +193,5 @@ font-weight: 700;
 font-size: 40px;
 font-family: 'Tangerine', cursive;
 
-@media screen and (max-width: 480px){
-    margin-left: 16px;
-    margin-top: 8px;
-}
 
 `
