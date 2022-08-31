@@ -5,6 +5,7 @@ export const BackgroundContainer = styled.div`
 justify-content: center;
 align-items: center;
 height: 100vh;
+overflow: hidden;
 `;
 
 export const BackgroundImage = styled.img`
@@ -14,7 +15,8 @@ height: 100%;
 object-fit: cover;
 `
 export const Container = styled.div`
-min-height: 700px;
+min-height: 600px;
+min-width: 250px;
 position: absolute;
 bottom: 0;
 left: 0;
@@ -45,7 +47,7 @@ justify-content: center;
 overflow: hidden;
 
 @media screen and (max-width: 480px){
-    padding: 10px;
+    //padding: 10px;
 }
 `;
 /*
@@ -99,7 +101,10 @@ border: 1px solid #000;
 @media screen and (max-width: 768px){
     padding: 10px 10px;
     margin-bottom: 10px;
+}
 
+@media screen and (max-width: 350px){
+    width: 90%;
 }
 
 `;
@@ -115,7 +120,9 @@ border: 1px solid #000;
 @media screen and (max-width: 768px){
     padding: 30px 10px;
     margin-bottom: 10px;
-
+}
+@media screen and (max-width: 350px){
+    width: 90%;
 }
 
 `;
@@ -131,16 +138,10 @@ cursor: pointer;
 
 @media screen and (max-width: 768px){
     padding: 10px 0;
-
 }
 `;
 
-export const text = styled.span`
-text-align: center;
-margin-top: 24px;
-color: #fff;
-font-size: 14px;
-`;
+
 
 /*
 export const FormContent = styled.form`
@@ -173,6 +174,10 @@ font-family: 'Tangerine', cursive;
     font-size: 50px;
 }
 
+@media screen and (max-width: 300px){
+    font-size: 40px;
+}
+
 `;
 
 export const RsvpH2 = styled.h2`
@@ -185,7 +190,6 @@ margin-bottom: 40px;
 
 `
 export const Icon = styled(Link)`
-margin-left: 32px;
 margin-top: 32px;
 text-decoration: none;
 color: white;
