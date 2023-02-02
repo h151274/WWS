@@ -7,7 +7,7 @@ import {
     FrontContent,
     HeaderImage
 } from './FrontElements';
-import headerImage from '../../images/sand.jpg'
+import headerImage from '../../images/header.jpg'
 
 const FrontSection = () => {
     return (
@@ -17,7 +17,7 @@ const FrontSection = () => {
             </FrontBg>
             <FrontContent>
                 <FrontH1> Bonn & Eivin  </FrontH1>
-                <FrontP>Month 00, 2024 · Koh Samui, Thailand </FrontP>
+                <FrontP>March 30, 2024 · Koh Samui, Thailand </FrontP>
             </FrontContent>
         </FrontContainer>
     )

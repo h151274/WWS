@@ -28,7 +28,7 @@ const changeNav =()=> {
     window.addEventListener('scroll', changeNav);
   }, []);
 
-  const toggleHome  = () => { 
+  const toggleHome  = () => {
     scroll.scrollToTop();
   }
 
@@ -43,13 +43,13 @@ const changeNav =()=> {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="Wedding" smooth={true} duration={500} spy={true} exact='true' offset={-80}> Wedding Details </NavLinks>
+              <NavLinks to="Wedding" smooth={true} duration={500} spy={true} exact='true' offset={-90}> Wedding Details </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="Travel" smooth={true} duration={500} spy={true} exact='true' offset={-80}> Travel & Stay</NavLinks>
+              <NavLinks to="Travel" smooth={true} duration={500} spy={true} exact='true' offset={-90}> Travel & Stay</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="ToDo" smooth={true} duration={500} spy={true} exact='true' offset={-80}> What to do</NavLinks>
+              <NavLinks to="ToDo" smooth={true} duration={500} spy={true} exact='true' offset={-90}> What to do</NavLinks>
             </NavItem>                  
           </NavMenu>
           <NavBtn>
