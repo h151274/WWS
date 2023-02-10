@@ -1,11 +1,12 @@
 import React, { useState} from "react";
 import { useNavigate } from 'react-router-dom';
 import {BackgroundContainer, Form, Button, Input, FormWrap, Container, ErrorMsg, Icon} from "./styles";
+import config from '../../config';
 
 function LoginForm({ setHasAccess }) {
     const [password, setPassword] = useState("");
     const navigate = useNavigate();
-    const correctPassword = process.env.PASSWORD;
+    const correctPassword = config.password;
     const [wrongPassword, setWrongPassword] = useState("");
 
     const handleSubmit = (event) => {
