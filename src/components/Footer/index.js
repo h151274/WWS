@@ -24,7 +24,7 @@ const Footer = () => {
                         </FooterLinkItems>
                         <FooterLinkItems>
                            <Title2>Eivin: </Title2>
-                            <TextLink href="tel:+4747319640">+47 473 19 640</TextLink>
+                            <TextLink href="tel:+4747319640">+47 473 29 640</TextLink>
                             <TextLink href="mailto:sellevold_92@hotmail.com">sellevold_92@hotmail.com</TextLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper> 

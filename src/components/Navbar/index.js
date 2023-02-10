@@ -37,7 +37,7 @@ const changeNav =()=> {
     <>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to='/' onClick={toggleHome}>B & E</NavLogo>
+          <NavLogo to='/home' onClick={toggleHome}>B & E</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars/>
           </MobileIcon>

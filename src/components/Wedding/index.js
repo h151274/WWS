@@ -19,8 +19,8 @@ export const WeddingInfo = () => {
     return (
 
         <WeddingContainer id="Wedding">
-            <WeddingH1>Please join us on March 30, 2024 as we celebrate our wedding in Koh Samui, Thailand.</WeddingH1>
-                <TopLine>Tropical Casual</TopLine>
+            <WeddingH1>Please join us on March 30th, 2024 as we celebrate our wedding in Koh Samui, Thailand.</WeddingH1>
+                <TopLine>Beach Casual</TopLine>
                 <WeddingWrapper>
                     <WeddingCard>
                         <WeddingPicture src={bilde1} />

@@ -4,20 +4,19 @@ export const InfoContainer = styled.div`
 background-color: #fff;
 
 @media screen and (max-width: 768px){
-    padding: 100px 0;    
+    padding: 5rem 0;    
 }
 
 `;
 export const InfoWrapper = styled.div`
-display: grid;
-z-index: 1;
-height: 860px;
-width: 100%;
-max-width: 1500px;
-margin-right: auto;
-margin-left: auto;
-padding: 0 24px;
-justify-content: center;
+  display: grid;
+  z-index: 1;
+  width: 100%;
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 24px;
+  justify-content: center;
 `;
 
 export const InfoRow = styled.div`
@@ -80,19 +79,20 @@ font-size: 18px;
 line-height: 24px;
 `;
 
-export const BtnWrap = styled.div`
-display: flex ;
-justify-content: flex-start;
-`;
 
 export const ImgWrap = styled.div`
-max-width: 555px;
-height: 100%;
+  max-width: 555px;
+  height: 100%;
 `;
 
 export const Img = styled.img`
-width: 90%;
-margin: 0 0 10px 0;
-padding-right: 0;
+  width: 90%;
+  margin: 0 0 10px 0;
+  padding-right: 0;
+  padding-top: 5rem;
+  
+  @media screen and (max-width: 768px){
+    padding-top: 0;
+  }
 `;
 

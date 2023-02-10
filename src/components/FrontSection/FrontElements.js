@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FrontContainer = styled.div`
 display: flex;
 justify-content: center;
-align-items: center;
+align-items: flex-start;
 padding: 0 30px;
 height: 1000px;
 position: relative;
@@ -29,39 +29,33 @@ object-fit: cover;
 `
 
 export const FrontContent = styled.div`
-z-index: 3;
-max-width: 1200px;
-position: absolute;
-padding: 8px 24px;
-display: flex;
-flex-direction: column;
-align-items: center;
+  z-index: 3;
+  margin-top: 15rem;
 `;
 
 export const FrontH1 = styled.h1`
 color: #fff;
-font-size: 80px;
+font-size: 150px;
 text-align: center;
 font-family: 'Tangerine', cursive;
 
 @media screen and (max-width: 768px){
-    font-size: 50px;
+    font-size: 100px;
 }
 
 @media screen and (max-width: 480px){
-    font-size: 42px;
+    font-size: 50px;
 }
 `;
 
 export const FrontP = styled.p`
-margin-top: 24px;
 color: #fff;
 font-size: 24px;
 text-align: center;
 max-width: 600px;
 
 @media screen and (max-width: 768px){
-    font-size: 24px;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 480px){

@@ -1,35 +1,24 @@
 import React from 'react'
-import {
-    BackgroundContainer,
-    BackgroundImage,
-    Container, Form, FormButton,
-    FormContent, FormInput, FormInputMessage,
-    FormWrap,
-    Icon, RsvpH1, RsvpH2
-} from "./styles";
-import bgImage from "../../images/rsvp.jpg";
+import {FormContainer, FormIframe, Icon} from "./styles";
+import {Navigate} from "react-router-dom";
 
-const RsvpPage = () => {
-  return (
-        <BackgroundContainer>
-            <BackgroundImage src={bgImage} alt="headerImage" />
-            <Container className='container'>
-                <FormWrap className='FormWrap'>
-                    <Icon to="/Home" className='Icon'>B & E</Icon>
-                    <FormContent className='FormContent'>
-                        <Form>
-                            <RsvpH1>Will you attend?</RsvpH1>
-                            <RsvpH2>R.S.V.P</RsvpH2>
-                            <FormInput type='name' placeholder='Full Name' required />
-                            <FormInput type='email' placeholder='E-Mail' required />
-                            <FormInput type='guests' placeholder='Guests' required />
-                            <FormInputMessage type='Message' placeholder='Message' required />
-                            <FormButton type='submit'>Send</FormButton>
-                        </Form>
-                    </FormContent>
-                </FormWrap>
-            </Container>
-        </BackgroundContainer>
+
+const RsvpPage = ({hasAccess}) => {
+
+    if (!hasAccess) {
+        return <Navigate replace to="/" />
+    }
+
+    return (
+      <FormContainer>
+          <Icon>B&E</Icon>
+        <FormIframe
+            title="RSVP form"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSf0S3D1kySK6kTGCcuQQtK4bbJVpS1WwY-c-YDJ30-v0C36_Q/viewform?embedded=true"
+            style={{ width: '100%', height: '100%' }}
+            allowFullScreen
+        />
+      </FormContainer>
   )
 }
 

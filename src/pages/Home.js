@@ -10,14 +10,19 @@ import Sidebar from '../components/Sidebar';
 import TextSection from '../components/TextSection';
 import { textObjOne } from '../components/TextSection/Data';
 import { WeddingInfo } from '../components/Wedding';
+import {Navigate} from "react-router-dom";
 
 
-const Home = () => {
+const Home = ({hasAccess}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
     setIsOpen(!isOpen)
   }
+
+    if (!hasAccess) {
+        return <Navigate replace to="/" />
+    }
 
   return (
     <>
