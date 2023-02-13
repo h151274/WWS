@@ -1,4 +1,5 @@
-import React, { useState} from "react";
+import React from 'react';
+import {useState} from "react";
 import { useNavigate } from 'react-router-dom';
 import {BackgroundContainer, Form, Button, Input, FormWrap, Container, ErrorMsg, Icon} from "./styles";
 
@@ -6,8 +7,9 @@ function LoginForm({ setHasAccess }) {
     const [password, setPassword] = useState("");
     const navigate = useNavigate();
     const correctPassword = process.env.PASSWORD;
-    const [wrongPassword, setWrongPassword] = useState("");
+    const [wrongPassword, setWrongPassword] = useState(false);
 
+    console.log(process.env.REACT_APP_TEST_VARIABLE);
     const handleSubmit = (event) => {
         event.preventDefault();
 
