@@ -6,10 +6,9 @@ import {BackgroundContainer, Form, Button, Input, FormWrap, Container, ErrorMsg,
 function LoginForm({ setHasAccess }) {
     const [password, setPassword] = useState("");
     const navigate = useNavigate();
-    const correctPassword = process.env.PASSWORD;
+    const correctPassword = process.env.REACT_APP_PASSWORD;
     const [wrongPassword, setWrongPassword] = useState(false);
 
-    console.log(process.env.REACT_APP_TEST_VARIABLE);
     const handleSubmit = (event) => {
         event.preventDefault();
 
