@@ -1,7 +1,8 @@
 import React from 'react';
 import {useState} from "react";
 import { useNavigate } from 'react-router-dom';
-import {BackgroundContainer, Form, Button, Input, FormWrap, Container, ErrorMsg, Icon} from "./styles";
+import {BackgroundContainer, Form, Button, Input, FormWrap, Container, ErrorMsg, Img, ImgWrap} from "./styles";
+import logoBlack from "../../images/logoBlack.png";
 
 function LoginForm({ setHasAccess }) {
     const [password, setPassword] = useState("");
@@ -25,7 +26,9 @@ function LoginForm({ setHasAccess }) {
             <Container>
                 <FormWrap>
                     <Form onSubmit={handleSubmit}>
-                        <Icon>B&E</Icon>
+                        <ImgWrap>
+                            <Img src={logoBlack} alt={"logoBlack"} />
+                        </ImgWrap>
                         <label htmlFor="password">Password:</label>
                         <Input
                             type="password"

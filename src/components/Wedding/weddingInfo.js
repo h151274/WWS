@@ -1,23 +1,12 @@
 import styled from "styled-components";
 
 export const WeddingContainer = styled.div`
-  height: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #fff;
   margin-bottom: 40px;
-  
-@media screen and (max-width: 764px){
-    height: 3000px;
-}
-@media screen and (max-width: 530px){
-    height: 2700px;
-}
-@media screen and (max-width: 412px){
-    height: 2200px;
-}
 `;
 export const WeddingWrapper = styled.div`
   max-width: 1400px;
@@ -43,12 +32,14 @@ export const WeddingCard = styled.div`
   max-width: 550px;
   width: 100%;
   height: 100%;
-  padding: 30px;
+  padding: 35px;
+  text-align: center;
+
 `;
 
 export const WeddingPicture = styled.img`
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   //transition: 0.2s ease-in-out;
 
 `;
@@ -57,8 +48,9 @@ export const WeddingH1 = styled.h1`
   font-size: 2.5rem;
   color: #000;
   margin: 64px;
+  text-align: center;
 
-@media screen and (max-width: 480px){
+  @media screen and (max-width: 480px){
     font-size: 2rem;
 }
 `;

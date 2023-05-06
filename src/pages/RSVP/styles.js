@@ -1,27 +1,33 @@
 import styled from "styled-components";
-import { Link } from 'react-router-dom'
+import {Link as LinkR} from 'react-router-dom'
 
 export const FormContainer = styled.div`
   width: 100%;
   height: 100vh;
-  overflow: hidden;
-  background: #7799a5;
+  overflow: auto;
+  background: #9abadb;
 `;
 
-export const FormIframe = styled.iframe`
-  margin-top: 2rem;
+export const NavbarContainer = styled.div`
+  justify-content: center;
+  display: flex;
+  height: 90px;
   width: 100%;
-  height: 100%;
-  border: none;
-`;
+  padding: 0 24px;
+  margin-bottom: 20px;
+`
 
-export const Icon = styled(Link)`
-  text-decoration: none;
-  color: white;
-  font-weight: 700;
-  font-size: 5rem;
-  font-family: 'Tangerine', cursive;
-  margin-top: 5rem;
-  display: inline-block;
+export const NavLogo = styled(LinkR)`
+display: flex;
+align-items: center;
+  margin-top: 30px;
+`
+
+export const Img = styled.img`
+  width: 9rem;
+  
+  @media screen and (max-width: 768px){
+    padding-top: 0;
+  }
 `;
 

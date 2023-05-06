@@ -21,7 +21,8 @@ export const WeddingInfo = () => {
         <WeddingContainer id="Wedding">
             <WeddingH1>Please join us on March 30th, 2024 as we celebrate our wedding in Koh Samui, Thailand.</WeddingH1>
                 <TopLine>Beach Casual</TopLine>
-                <WeddingWrapper>
+
+            <WeddingWrapper>
                     <WeddingCard>
                         <WeddingPicture src={bilde1} />
                         <WeddingH2>Thai morning Ceremony</WeddingH2>
@@ -31,14 +32,14 @@ export const WeddingInfo = () => {
                     <WeddingCard>
                         <WeddingPicture src={bilde2} />
                         <WeddingH2>Ceremony</WeddingH2>
-                        <WeddingTopLine>00:00PM / 00.00</WeddingTopLine>
-                        <WeddingP>Name of Hotel or Venue. District, The rest of the Adress, Thailand   </WeddingP>
+                        <WeddingTopLine>16.30 - 17.00</WeddingTopLine>
+                        <WeddingP> Private Beach at Silavadee Pool Spa Resort, Koh Samui. </WeddingP>
                     </WeddingCard>
                     <WeddingCard>
                         <WeddingPicture src={bilde3} />
-                        <WeddingH2>Reception</WeddingH2>
-                        <WeddingTopLine>00:00PM / 00.00</WeddingTopLine>
-                        <WeddingP>Name of Hotel or Venue. District, The rest of the Adress, Thailand  </WeddingP>
+                        <WeddingH2>Reception Dinner</WeddingH2>
+                        <WeddingTopLine>19.00</WeddingTopLine>
+                        <WeddingP>The Hight Resturant at Silavadee Pool Spa Resort, Koh Samui.  </WeddingP>
                     </WeddingCard>
                 </WeddingWrapper>           
         </WeddingContainer>

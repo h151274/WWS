@@ -11,7 +11,6 @@ height: 100%;
 background: #0d0d0d;
 display: grid;
 align-items: center;
-top: 0;
 left: 0;
 transition: 0.3s ease-in-out;
 opacity: ${({isOpen}) => (isOpen ? '100%' : '0')};
@@ -54,7 +53,6 @@ font-size: 1.5rem;
 text-decoration: none;
 list-style: none;
 transition: 0.2s ease-in-out;
-text-decoration: none;
 color: #fff;
 cursor: pointer;
 

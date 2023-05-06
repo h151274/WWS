@@ -10,8 +10,10 @@ import {
   NavLinks, 
   NavMenu,
   NavBtn,
-  NavBtnLink
+  NavBtnLink,
+  Img
 } from './NavbarElements'
+import logoWhite from "../../images/logoWhite.png";
 
 const Navbar = ({toggle}) => {
 const [scrollNav, setScrollNav] = useState(false);
@@ -37,7 +39,9 @@ const changeNav =()=> {
     <>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to='/home' onClick={toggleHome}>B & E</NavLogo>
+          <NavLogo to='/home' onClick={toggleHome}>
+            <Img src={logoWhite} alt={"logoWhite"} />
+          </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars/>
           </MobileIcon>
@@ -46,7 +50,10 @@ const changeNav =()=> {
               <NavLinks to="Wedding" smooth={true} duration={500} spy={true} exact='true' offset={-90}> Wedding Details </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="Travel" smooth={true} duration={500} spy={true} exact='true' offset={-90}> Travel & Stay</NavLinks>
+              <NavLinks to="Travel" smooth={true} duration={500} spy={true} exact='true' offset={-90}> Travel</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to="Stay" smooth={true} duration={500} spy={true} exact='true' offset={-90}>Where to Stay</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="ToDo" smooth={true} duration={500} spy={true} exact='true' offset={-90}> What to do</NavLinks>

@@ -6,6 +6,7 @@ export const BackgroundContainer = styled.div`
   height: 100vh;
   overflow: hidden;
   background: #927667;
+  text-align: center;
 `;
 
 export const Container = styled.div`
@@ -49,14 +50,6 @@ export const Form = styled.form`
   }
 `;
 
-export const Icon = styled.p`
-margin-bottom: 20px;
-text-decoration: none;
-font-weight: 700;
-font-size: 30px;
-font-family: 'Tangerine', cursive;
-`;
-
 export const Input = styled.input`
   padding: 0.5em;
   margin: 0.5em;
@@ -81,6 +74,19 @@ export const ErrorMsg = styled.p`
   text-align: left;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+`;
+
+export const ImgWrap = styled.div`
+  max-width: 555px;
+  height: 100%;
+`;
+
+export const Img = styled.img`
+  width: 20%;
+  
+  @media screen and (max-width: 768px){
+    padding-top: 0;
+  }
 `;
 
 

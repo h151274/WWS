@@ -2,16 +2,16 @@
 
 export const infoSectionObjOne = {
     id: 'Travel',
-    headline: 'Travel & Stay',
-    description: 'Hotels and other recommendations',
-    img: require('../../images/par2.jpg'),
-    alt: 'bilde2',
+    headline: 'Travel',
+    description: 'Bangkok & Koh Samui, Thailand',
+    img: require('../../images/Koh-Samui-Airport.jpg'),
+    alt: 'bilde1',
 }
 
 export const infoSectionObjTwo = {
-    id: 'ToDo',
-    headline: 'What to do',
-    description: 'Activities and Attractions',
-    img: require('../../images/horisontal1.jpg'),
+    id: 'Stay',
+    headline: 'Where to Stay',
+    description: 'Wedding resort and other recommendations',
+    img: require('../../images/Silavadee-Signature.jpg'),
     alt: 'bilde2',
 }
