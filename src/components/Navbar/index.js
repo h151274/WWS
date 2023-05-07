@@ -55,9 +55,6 @@ const changeNav =()=> {
             <NavItem>
               <NavLinks to="Stay" smooth={true} duration={500} spy={true} exact='true' offset={-90}>Where to Stay</NavLinks>
             </NavItem>
-            <NavItem>
-              <NavLinks to="ToDo" smooth={true} duration={500} spy={true} exact='true' offset={-90}> What to do</NavLinks>
-            </NavItem>                  
           </NavMenu>
           <NavBtn>
               <NavBtnLink to='/rsvp'>RSVP</NavBtnLink>

@@ -21,7 +21,6 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to='Wedding' onClick={toggle} offset={-90}>Wedding Details</SidebarLink>
                     <SidebarLink to='Travel' onClick={toggle} offset={-90}>Travel</SidebarLink>
                     <SidebarLink to='Stay' onClick={toggle} offset={-90}>Stay</SidebarLink>
-                    <SidebarLink to='ToDo' onClick={toggle} offset={-90}>What to do</SidebarLink>
                 </SidebarMenue>
                 <SidebarBtnWrap>
                     <SidebarRoute to='/rsvp'>RSVP</SidebarRoute>
