@@ -11,8 +11,7 @@ import {
     Subtitle,
     FlightSubtitle,
     IconWrapper,
-    Link,
-
+    Link, RoomTypeWrapper
 } from './styles'
 
 import {Location} from '@styled-icons/entypo/Location'
@@ -61,7 +60,8 @@ const TravelAndStay = () => {
                     </InfoRow>
                 </InfoWrapper>
                 <PictureSection {...infoSectionObjTwo} />
-
+            </InfoContainer>
+            <InfoContainer id='Stay'>
                 <InfoWrapper>
                     <TopLine>
                         <Heading> Silavadee Pool Spa Resort </Heading>
@@ -72,9 +72,22 @@ const TravelAndStay = () => {
                             <TextWrapper>
                                 <SecondHeading>Silavadee Pool Spa Resort</SecondHeading>
                                 <Subtitle>We will stay at the resort from Friday 29. March to Sunday 31. March.
-                                    All our guests will get a special room rate when booking a minimum 2-night stay.
-                                    If you would like to stay at the resort with us go to <Link color='black' href="https://www.silavadeeresort.com/" target="_blank"> Silavadee Resort </Link> to book your rooms. <br/>
-                                    Enter the promo code <b>WD300324 </b> for a discount.</Subtitle>
+                                    All our guests will get a special room rate when booking a minimum 2-night stay. The prices for one room one night are as follows:<br/>
+                                    <RoomTypeWrapper>
+                                    Jacuzzi Deluxe room THB 6,000<br/>
+                                    Oceanview Jacuzzi Deluxe room THB 6,800 <br/>
+                                    Tropical pool villa THB 10,000<br/>
+                                    Partial Oceanview Pool Villa THB 12,000 <br/>
+                                    Scenic Pool Villa THB 14,000<br/>
+                                    2BR Oceanview Duplex Pool Villa THB 18,000 <br/>
+                                    Oceanfront Pool Villa THB 20,000<br/><br/>
+                                    Check out the different room types at their <Link color='black' href="https://www.silavadeeresort.com/" target="_blank"> website. </Link>
+                                    </RoomTypeWrapper>
+                                    If you would like to stay at the resort with us send your booking details to <Link href="mailto:salesevent@silavadeeresort.com">salesevent@silavadeeresort.com</Link> before 30. November. <br/>
+
+                                    Include the promo code <b>WD300324 </b> in you mail to get the discount.<br/>
+                                </Subtitle>
+
                                 <IconWrapper href="https://www.google.com/maps/place/Silavadee+Resort/@9.4677636,100.0681815,17z/data=!4m9!3m8!1s0x3054f3f946766181:0xd7698fa314f6f2a0!5m2!4m1!1i2!8m2!3d9.4677583!4d100.0707564!16s%2Fg%2F11xc_vcc8" target="_blank">
                                     <Location size="48"/>
                                 </IconWrapper>
@@ -84,7 +97,8 @@ const TravelAndStay = () => {
                             <Subtitle>If you do not wish to stay at Silavadee, Cinnamon Beach Villas is a great alternative only 5 minute walk away.</Subtitle>
                             <IconWrapper href="https://www.google.com/maps/place/Cinnamon+Villas/@9.469352,100.0661098,17z/data=!3m1!4b1!4m9!3m8!1s0x3054f215ff5d7ac5:0x1a3d3f241e0f3047!5m2!4m1!1i2!8m2!3d9.4693467!4d100.0686847!16s%2Fg%2F1vh8mgcy" target="_blank">
                                 <Location size="48"/>
-                            </IconWrapper>                        </TextWrapper>
+                            </IconWrapper>
+                        </TextWrapper>
                     </InfoRow>
                 </InfoWrapper>
             </InfoContainer>

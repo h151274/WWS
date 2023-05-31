@@ -20,14 +20,14 @@ export const WeddingInfo = () => {
 
         <WeddingContainer id="Wedding">
             <WeddingH1>Please join us on March 30th, 2024 as we celebrate our wedding in Koh Samui, Thailand.</WeddingH1>
-                <TopLine>Beach Casual</TopLine>
+                <TopLine>Dress code: Beach Casual</TopLine>
 
             <WeddingWrapper>
                     <WeddingCard>
                         <WeddingPicture src={bilde1} />
-                        <WeddingH2>Thai morning Ceremony</WeddingH2>
-                        <WeddingTopLine>00:00PM / 00.00</WeddingTopLine>
-                        <WeddingP>Name of Hotel or Venue. District, The rest of the Adress, Thailand  </WeddingP>
+                        <WeddingH2>To be decided</WeddingH2>
+                        <WeddingTopLine>----</WeddingTopLine>
+                        <WeddingP>Info will come</WeddingP>
                     </WeddingCard>
                     <WeddingCard>
                         <WeddingPicture src={bilde2} />

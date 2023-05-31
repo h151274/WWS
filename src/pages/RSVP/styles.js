@@ -4,8 +4,9 @@ import {Link as LinkR} from 'react-router-dom'
 export const FormContainer = styled.div`
   width: 100%;
   height: 100vh;
-  overflow: auto;
+  overflow: hidden;
   background: #9abadb;
+  padding-bottom: 10rem;
 `;
 
 export const NavbarContainer = styled.div`

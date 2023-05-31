@@ -117,7 +117,6 @@ text-decoration: none;
 &:hover {
     transition: all 0.2s ease-in-out;
     background: rgba(255, 255, 255, .4);
-    color: #EFE1D2;
 }
 `
 

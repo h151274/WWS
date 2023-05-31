@@ -12,7 +12,7 @@ import {
   NavBtn,
   NavBtnLink,
   Img
-} from './NavbarElements'
+} from './styles'
 import logoWhite from "../../images/logoWhite.png";
 
 const Navbar = ({toggle}) => {

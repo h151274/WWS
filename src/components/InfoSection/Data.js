@@ -3,7 +3,7 @@ export const homeObjOne = {
     topLine: 'Name of location',
     headline: 'Activity',
     description: 'Information about the activities. To be decided. Design is not decided eighter. more info more info more info ',
-    img: require('../../images/bonnOgElefant.jpg'),
+    img: require('../../images/ElefantPar.jpg'),
     alt: 'baach',
     imgStart: true
 }

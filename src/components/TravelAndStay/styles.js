@@ -1,9 +1,13 @@
 import styled from 'styled-components';
 
-
 export const InfoContainer = styled.div`
-background-color: #EFE1D2;
-
+  background-color: ${props => {
+    if (props.id === 'Travel') {
+        return '#EFE1D2';
+    } else if (props.id === 'Stay') {
+        return '#FFFFFF';
+    }
+}};
 `;
 export const InfoWrapper = styled.div`
   display: grid;
@@ -40,6 +44,19 @@ export const TravelTextWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   padding-bottom: 60px;
+`;
+
+export const RoomTypeWrapper = styled.div`
+  border: 1px solid black;
+  text-align: left;
+  padding: 20px;
+  margin: 20px 40px;
+  font-size: 16px;
+  font-weight: bold;
+
+  @media screen and (max-width: 480px) {
+    font-size: 11px;
+  }
 `;
 
 export const SecondHeading = styled.h1`

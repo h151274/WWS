@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Footer from '../components/Footer';
-import FrontSection from '../components/FrontSection';
-import Navbar from '../components/Navbar';
+import FrontSection from '../components/FrontSection/FrontSection';
+import Navbar from '../components/Navbar/NavBar';
 import PictureSection from '../components/PictureSection';
 import { infoSectionObjOne} from '../components/PictureSection/Data';
 import Sidebar from '../components/Sidebar';
