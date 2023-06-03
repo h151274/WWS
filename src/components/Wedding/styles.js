@@ -70,7 +70,32 @@ export const WeddingTopLine = styled.p`
   margin-bottom: 16px;
 `;
 
+
 export const WeddingP = styled.p`
   font-size: 20px;
   text-align:center;
 `;
+
+export const ToastmasterWrapper = styled.div`
+  max-width: 1000px;
+  margin: 5rem auto;
+  text-align: center;
+  grid-gap: 10px;
+  padding: 0 50px;
+  
+`;
+
+export const TextLink = styled.a `
+  font-size: 16px;
+  text-align: left;
+  color: #000;
+  margin-right: 10px;
+  overflow: auto;
+
+
+
+  &:hover {
+    color: #dbbb9a;
+    transition: ease-out 0.2s;
+}
+`

@@ -137,6 +137,7 @@ export const IconWrapper = styled.a`
 export const Link = styled.a`
   color: black;
   transition: color 0.2s ease-in-out;
+  
 
   &:hover {
     color: #dbbb9a;  }
