@@ -86,6 +86,7 @@ const TravelAndStay = () => {
                                     If you would like to stay at the resort with us send your booking details to <Link href="mailto:salesevent@silavadeeresort.com">salesevent@silavadeeresort.com</Link> before 30. November. <br/>
 
                                     Include the promo code <b>WD300324 </b> in you mail to get the discount.<br/>
+                                    We recommend booking as soon as possible to get the room you want.
                                 </Subtitle>
 
                                 <IconWrapper href="https://www.google.com/maps/place/Silavadee+Resort/@9.4677636,100.0681815,17z/data=!4m9!3m8!1s0x3054f3f946766181:0xd7698fa314f6f2a0!5m2!4m1!1i2!8m2!3d9.4677583!4d100.0707564!16s%2Fg%2F11xc_vcc8" target="_blank">

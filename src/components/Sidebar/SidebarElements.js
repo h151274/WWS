@@ -58,7 +58,7 @@ cursor: pointer;
 
 &:hover {
     transition: 0.2s ease-in-out;
-    color: wheat;
+    color: #dbbb9a;
 }
 `
 

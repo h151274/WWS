@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {Link as LinkR} from "react-router-dom";
 
 export const WeddingContainer = styled.div`
   display: flex;
@@ -16,11 +17,13 @@ export const WeddingWrapper = styled.div`
   align-items: center;
   grid-gap: 10px;
   padding: 0 50px;
-  
-@media screen and (max-width: 764px){
+
+  @media screen and (max-width: 764px) {
     grid-template-columns: 1fr;
     padding: 0 20px;
-}
+    grid-gap: 0;
+
+  }
 `;
 export const WeddingCard = styled.div`
   background: #fff;
@@ -40,7 +43,7 @@ export const WeddingCard = styled.div`
 export const WeddingPicture = styled.img`
   width: 100%;
   margin-bottom: 20px;
-  //transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 
 `;
 
@@ -82,20 +85,40 @@ export const ToastmasterWrapper = styled.div`
   text-align: center;
   grid-gap: 10px;
   padding: 0 50px;
-  
+
+  @media screen and (max-width: 764px){
+    padding: 0 20px;
+  }
 `;
 
 export const TextLink = styled.a `
   font-size: 16px;
   text-align: left;
   color: #000;
-  margin-right: 10px;
+  margin-left: 10px;
   overflow: auto;
-
-
-
+  
   &:hover {
     color: #dbbb9a;
     transition: ease-out 0.2s;
 }
+`
+export const NavBtnLink = styled(LinkR)`
+  border-radius: 50px;
+  background: #dbbb9a;
+  white-space: nowrap;
+  padding: 10px 20px;
+  color: #010606;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  margin-top: 20px;
+  
+
+&:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: rgba(219, 187, 154, 0.5);}
 `

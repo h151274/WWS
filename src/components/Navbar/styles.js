@@ -78,6 +78,11 @@ export const NavItem = styled.li`
 height: 90px;
 `
 
+export const NavBtn = styled.nav`
+display: flex;
+align-items: center;
+`
+
 export const NavLinks = styled(LinkScroll)`
 color: #fff;
 display: flex;
@@ -89,34 +94,6 @@ cursor: pointer;
 
 &.active {
     border-bottom: 3px solid #EFE1D2;
-}
-`
-
-export const NavBtn = styled.nav`
-display: flex;
-align-items: center;
-
-@media screen and (max-width: 768px){
-    display: none;
-}
-`
-
-export const NavBtnLink = styled(LinkR)`
-border-radius: 50px;
-background: #fff;
-white-space: nowrap;
-padding: 10px 20px;
-color: #010606;
-font-size: 16px;
-outline: none;
-border: none;
-cursor: pointer;
-transition: all 0.2s ease-in-out;
-text-decoration: none;
-
-&:hover {
-    transition: all 0.2s ease-in-out;
-    background: rgba(255, 255, 255, .4);
 }
 `
 

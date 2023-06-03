@@ -2,18 +2,18 @@ import React, {useEffect, useState} from 'react'
 import {FaBars} from 'react-icons/fa'
 import { animateScroll as scroll} from 'react-scroll'
 import {
-  MobileIcon, 
-  Nav, 
-  NavbarContainer, 
-  NavLogo, 
-  NavItem, 
-  NavLinks, 
+  MobileIcon,
+  Nav,
+  NavbarContainer,
+  NavLogo,
+  NavItem,
+  NavLinks,
   NavMenu,
-  NavBtn,
-  NavBtnLink,
-  Img
+  Img, NavBtn
 } from './styles'
 import logoWhite from "../../images/logoWhite.png";
+import RsvpButton from "../RSVPButton/RsvpButton";
+import {useMediaQuery} from "react-responsive";
 
 const Navbar = ({toggle}) => {
 const [scrollNav, setScrollNav] = useState(false);
@@ -33,7 +33,7 @@ const changeNav =()=> {
   const toggleHome  = () => {
     scroll.scrollToTop();
   }
-
+  const isMobile = useMediaQuery({ maxWidth: 768 });
 
   return (
     <>
@@ -56,11 +56,8 @@ const changeNav =()=> {
               <NavLinks to="Stay" smooth={true} duration={500} spy={true} exact='true' offset={-90}>Where to Stay</NavLinks>
             </NavItem>
           </NavMenu>
-          <NavBtn>
-              <NavBtnLink to='/rsvp'>RSVP</NavBtnLink>
-            </NavBtn>
+          {!isMobile && <NavBtn> <RsvpButton/></NavBtn>}
         </NavbarContainer>
-        
       </Nav>
     </>
 

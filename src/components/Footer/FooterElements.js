@@ -7,7 +7,6 @@ background-color: #101522;
 export const FooterWrapper = styled.div`
 padding: 48px 24px;
 justify-content: left;
-align-items: left;
 max-width: 1100px;
 margin: 0 auto;
 `
@@ -60,8 +59,8 @@ text-align: left;
 color: #fff;
 
 &:hover {
-    color: #EFE1D2;
-    transition: 0.3 ease-out;
+    color: #dbbb9a;
+  transition: ease-out 0.2s;
 }
 `
 

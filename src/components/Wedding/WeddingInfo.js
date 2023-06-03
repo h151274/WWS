@@ -13,15 +13,18 @@ import {
     WeddingTopLine,
     WeddingP,
     ToastmasterWrapper,
-    TextLink,
+    TextLink, NavBtnLink,
 } from './styles'
 
 export const WeddingInfo = () => {
     return (
 
         <WeddingContainer id="Wedding">
-            <WeddingH1>Please join us on March 30th, 2024 as we celebrate our wedding in Koh Samui, Thailand.</WeddingH1>
-                <WeddingTopLine>Dress code: Beach Casual</WeddingTopLine>
+            <WeddingH1>Please join us on 30th March, 2024 as we celebrate our wedding in beautiful Koh Samui, Thailand.</WeddingH1>
+            <WeddingTopLine>Dress code: Beach Casual</WeddingTopLine>
+
+            <NavBtnLink to='/rsvp'> RSVP by 30th November </NavBtnLink>
+
 
             <WeddingWrapper>
                     <WeddingCard>
@@ -55,10 +58,10 @@ export const WeddingInfo = () => {
                 team to ensure a memorable and enjoyable celebration for everyone. <br/><br/>
                 To schedule a speech, please contact our toastmasters: <br/>
                 <b>Arisa: </b>
-                <TextLink href="tel:+4746786117">+4746786117</TextLink>
+                <TextLink href="tel:+4746786117">+47 467 86 117</TextLink>
                 <TextLink href="mailto:arisaseljestokken@gmail.com">arisaseljestokken@gmail.com</TextLink> <br/>
                 <b>Hanne:</b>
-                <TextLink href="tel:+4797648633">+4797648633</TextLink>
+                <TextLink href="tel:+4797648633">+47 976 48 633</TextLink>
                 <TextLink href="mailto:Hannedyvik@hotmail.com">hannedyvik@hotmail.com</TextLink>
             </WeddingP>
         </ToastmasterWrapper>
