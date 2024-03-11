@@ -23,7 +23,7 @@ const FrontSection = () => {
             </FrontBg>
             <FrontContent>
                 <TextLogoImage src={txtLogoImage}></TextLogoImage>
-                <FrontP>March 30, 2024 · Koh Samui, Thailand </FrontP>
+                <FrontP>30th March 2024 · Koh Samui, Thailand </FrontP>
                 {isMobile && (
                 <MobileNavBtnContainer>
                     <RsvpButton/>

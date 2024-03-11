@@ -62,7 +62,7 @@ const TravelAndStay = () => {
                 <PictureSection {...infoSectionObjTwo} />
             </InfoContainer>
             <InfoContainer id='Stay'>
-                <InfoWrapper>
+                <InfoWrapper >
                     <TopLine>
                         <Heading> Silavadee Pool Spa Resort </Heading>
                         This is the resort where Eivin decided to propose to Bonn, and she said yes!

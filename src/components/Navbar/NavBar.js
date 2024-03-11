@@ -47,21 +47,19 @@ const changeNav =()=> {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="Wedding" smooth={true} duration={500} spy={true} exact='true' offset={-90}> Wedding Details </NavLinks>
+              <NavLinks to="Wedding" smooth={true} duration={500} spy={true} exact='true' offset={-80}> Wedding Details </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="Travel" smooth={true} duration={500} spy={true} exact='true' offset={-90}> Travel</NavLinks>
+              <NavLinks to="Travel" smooth={true} duration={500} spy={true} exact='true' offset={-80}> Travel</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="Stay" smooth={true} duration={500} spy={true} exact='true' offset={-90}>Where to Stay</NavLinks>
+              <NavLinks to="Stay" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Where to Stay</NavLinks>
             </NavItem>
           </NavMenu>
           {!isMobile && <NavBtn> <RsvpButton/></NavBtn>}
         </NavbarContainer>
       </Nav>
     </>
-
   )
 }
-
 export default Navbar;

@@ -4,7 +4,7 @@ import FrontSection from '../components/FrontSection/FrontSection';
 import Navbar from '../components/Navbar/NavBar';
 import PictureSection from '../components/PictureSection';
 import {infoSectionObjOne} from '../components/PictureSection/Data';
-import Sidebar from '../components/Sidebar';
+import Sidebar from '../components/Sidebar/Sidebar';
 import TravelAndStay from '../components/TravelAndStay/TravelAndStay';
 import { WeddingInfo } from '../components/Wedding/WeddingInfo';
 import {Navigate} from "react-router-dom";

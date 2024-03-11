@@ -29,21 +29,21 @@ export const WeddingInfo = () => {
             <WeddingWrapper>
                     <WeddingCard>
                         <WeddingPicture src={bilde1} />
-                        <WeddingH2>Ceremony</WeddingH2>
-                        <WeddingTopLine>16.30 - 17.00</WeddingTopLine>
-                        <WeddingP> Private Beach at Silavadee Pool Spa Resort, Koh Samui. </WeddingP>
+                        <WeddingH2>Welcome Party</WeddingH2>
+                        <WeddingTopLine>18.00 - 23.00</WeddingTopLine>
+                        <WeddingP> Sun Lounge at Silavadee Pool Spa Resort, Koh Samui.</WeddingP>
                     </WeddingCard>
                     <WeddingCard>
                         <WeddingPicture src={bilde2} />
-                        <WeddingH2>Cocktail Hour</WeddingH2>
-                        <WeddingTopLine>17.00 - 19.00</WeddingTopLine>
-                        <WeddingP> Sun Lounge at Silavadee Pool Spa Resort, Koh Samui. </WeddingP>
+                        <WeddingH2>Ceremony</WeddingH2>
+                        <WeddingTopLine>15.30 - 16.00</WeddingTopLine>
+                        <WeddingP> Private Beach at Silavadee Pool Spa Resort, Koh Samui.</WeddingP>
                     </WeddingCard>
                     <WeddingCard>
                         <WeddingPicture src={bilde3} />
                         <WeddingH2>Wedding Dinner</WeddingH2>
                         <WeddingTopLine>19.00</WeddingTopLine>
-                        <WeddingP>The Hight Resturant at Silavadee Pool Spa Resort, Koh Samui.  </WeddingP>
+                        <WeddingP>The Star Resturant at Silavadee Pool Spa Resort, Koh Samui.  </WeddingP>
                     </WeddingCard>
                 </WeddingWrapper>
 
